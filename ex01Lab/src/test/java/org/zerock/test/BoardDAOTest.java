@@ -68,7 +68,7 @@ public class BoardDAOTest {
 	//@Test
 	public void testListPage() throws Exception {
 
-		int page = 3;
+		int page = 2;
 
 		List<BoardVO> list = dao.listPage(page);
 
